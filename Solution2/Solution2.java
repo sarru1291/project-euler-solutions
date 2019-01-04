@@ -11,7 +11,7 @@ public class Solution2{
   public static void main(String[] args) {
     final int limit=4000000;
     ArrayList<Integer> list=new ArrayList<>();
-    list.add(0);list.add(1);
+    list.add(1);list.add(1);
     int i=2;int sum=0;
     while ((list.get(i-1)+list.get(i-2))<=limit) {
         list.add(i, list.get(i-1)+list.get(i-2)); 
